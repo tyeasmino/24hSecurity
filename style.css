@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* header CSS Starts */
+header {
+    width: 100%;
+    height: 746px;
+    background-image: url("img/banner/banner-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    color: #FB9D5C;
+}
+
+.logoDiv {
+    width: 60%;
+}
+
+.logoImg {
+    width: 80px;
+    height: 80px;
+    margin-left: 60px;
+}
+
+.navDiv {
+    width: 30%;
+    display: flex;
+    gap: 50px; 
+    margin: auto; 
+}
+
+.navDiv li {
+    list-style: none;
+}
+
+.bannerDiv {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.banner-left-section {
+    width: 20%; 
+    text-align: center; 
+    margin-left: 70px;
+}
+
+.banner-left-section p {
+    color: #FB9D5C;
+    font-size: 17px;
+}
+
+.banner-left-section h1 {
+    color: white; 
+}
+
+.banner-left-section button {
+    background-color: #FB9D5C;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none; 
+    font-size: 10px;
+}
+
+.banner-left-section button:hover {
+    color: #FB9D5C;
+    background-color: white;
+}
+
+.banner-right-section {
+    width: 35%;
+}
+.security-guard {
+    margin-top: -60px;
+}
+/* header CSS Ends */
+
+/* main css starts */
+/* other Logos CSS starts */
+.otherLogosDiv {
+    width: 95%;
+    background-color: #d3cece33;
+    margin: auto;
+}
+
+.internalDiv {
+    width: 70%;
+    margin: auto;
+}
+
+.logoImages {
+    width: 130px;
+    height: 130px;
+    margin: 20px 50px;
+}
+
+.loc2 {
+    width: 170px;
+}
+/* other Logos CSS ends */
+
+
+/* our services css starts */
+.servicesDetailsDiv {
+    width: 26%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.servicesCardsDiv {
+    width: 60%;
+    margin: auto; 
+}
+
+.row {
+    display: flex;
+}
+
+.serviceCard {
+    border: 1px solid #A5A1A1;
+    border-radius: 3px;
+    outline: none;
+    width: 356px;
+    height: 280px;
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center; 
+}
+
+.serviceCardLogo {
+    margin: 20px;
+}
+
+.serviceCard p {
+    font-size: 18px;
+}
+/* our services css ends */
+
+
+/* hire div css starts */
+.hireDiv {
+    width: 70%;
+    display: flex;
+    gap: 50px; 
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+
+.hireDiv-right-section button {
+    background-color: #0DCAF0;
+    padding: 10px 18px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.hireDiv-right-section h3 {
+    font-size: 45px; 
+}
+
+.hireHome {
+    color: #FB9D5C;
+}
+
+.hireDiv-right-section p {
+    font-size: 20px;
+    margin: 20px 10px; 
+    text-align: justify;
+}
+
+.freeConsultation {
+    display: flex;
+    gap: 20px;
+}
+
+.hireNum {
+    margin-top: 10px;
+}
+/* hire div css ends */
+/* main css ends */
+
+/* footer css starts */
+footer {
+    background-color: rgba(0, 0, 0, 0.925); 
+    padding: 50px 20px;
+}
+
+.internalFooterDiv {    
+    width: 70%;
+    display: flex;
+    gap: 50px; 
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.footerPart1, .footerPart5 {
+    width: 700px;
+    text-align: center;
+}
+
+.footerPart1Header {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    margin-left: 35px;
+}
+
+.footerPart1 h3 {
+    color: #FB9D5C;
+}
+
+.footerPart1 p {
+    color: #A5A1A1;
+    font-size: 17px;
+    margin: 20px 0;    
+}
+
+.emailInput {
+    border: none;
+    outline: none;
+    background-color: #A5A1A1;
+    padding: 15px 10px;
+}
+
+.emailInput::placeholder {
+    color: rgb(231, 228, 228);
+    font-weight: 600;
+}
+
+.footerPart2 p, .footerPart3 p, .footerPart4 p, .footerPart5 p{
+    color: #A5A1A1;
+    font-size: 32px;
+}
+
+.listBox {
+    display: flex;
+}
+
+.listPointer, .listDiv {
+    display: flex;
+    flex-direction: column;
+    color: #A5A1A1;
+}
+
+.listPointer {
+    width: 50px;
+}
+
+.listPointer img { 
+    width: 12px;
+    margin: 6px;
+}
+
+.listDiv span {
+    margin: 2px;
+    text-align: center;
+}
+
+.officeAddress, .officeAddressDetails  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.officeAddress span {
+    color: #FB9D5C; 
+    font-size: 20px; 
+}
+
+.officeAddressDetails span {
+    color: #A5A1A1;
+    font-size: 20px;
+}
+/* footer css ends */

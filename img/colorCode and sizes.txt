@@ -1,0 +1,18 @@
+orange - #FB9D5C
+gray - #C0BABA
+form-bg - #808080 
+logos-bg - #F9F9F9
+service-border - #A5A1A1
+react-button-bg - #FB9D5C 
+hire-button-bg - #0DCAF0
+
+
+24hlogo - 80*80
+react button - 108*38
+logos-box - 1320*206
+logos- 130*(any)
+service-card - 356*280
+hire button - 76*38
+hire call - 80*80
+footer logo - 50*50
+border img - 151*19
